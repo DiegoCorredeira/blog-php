@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Player 2 | Sua fonte gamer! </title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+            width: 100vw;
+            height: 100vh;
+            /*background-image: url("/img/background.jpg");*/
+            /*background-repeat: no-repeat;*/
+            /*background-position:center ;*/
+            /*background-size: cover;*/
+            /*background-attachment: fixed;*/
+
+        }
+        #menu{
+            text-align: left;
+        }
+        header{
+            margin-top: 15px;
+            text-align: center;
+        }
+        header p{
+            margin-bottom: 45px;
+            font: 18px 'sans-serif';
+        }
+
+        #main{
+            width: 1000px;
+            background: #FFF;
+            margin: 0 auto;
+            border-radius: 8px;
+            border-left: 2px solid #ccc;
+            border-right: 2px solid #ccc;
+            box-shadow: 20px -20px 100px 0px;
+        }
+        #topo a{
+            color: #333;
+            text-decoration: none;
+            font: 20px 'Sans Serif';
+        }
+        #topo a:hover{
+            text-decoration: underline;
+        }
+        #topo{
+            border-bottom: 2px solid #ccc;
+            padding: 20px 25px;
+        }
+        #conteudo{
+            background: #FFF;
+            padding: 20px 25px;
+        }
+        article h2 a{
+            font-size: 22px;
+            text-decoration: none;
+        }
+        article h2{
+            margin-bottom: 20px;
+        }
+        article h2 a:visited{
+            color: #333333;
+        }
+        article h2:hover{
+            text-decoration: underline;
+        }
+        img{
+            width: 450px;
+            margin: 20px;
+        }
+    </style>
+</head>
+<body>
+<div id="main">
+    <div id="topo">
+        <header id="menu">
+            <nav>
+                <a href="#">Inicio</a> |
+                <a href="#">Sobre</a>
+            </nav>
+        </header>
+    </div>
+    <div id="conteudo">
+        {{area_dinamica}}
+    </div>
+</div>
+</body>
+</html>
